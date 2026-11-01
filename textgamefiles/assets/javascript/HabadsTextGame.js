@@ -67,10 +67,10 @@ locationBar.innerHTML = `The Eerie Estate - Front Gate`;
 statsBar.innerHTML = `Score: 0 / Moves: 0`; // Pushes perfectly to the right!
 
 // Initial output for the text
-outputEl.innerHTML += `<div>Habad's Interactive Fiction,Copyright (c) 2025,
+/* outputEl.innerHTML += `<div>Habad's Interactive Fiction,Copyright (c) 2025,
 Habadcorp, Inc. All rights reserved.
 Habad's Interactive fiction is a registered trademark of
-HabadCorp, Inc.</div>`;
+HabadCorp, Inc.</div>`; */
 outputEl.innerHTML += `<br />`;
 outputEl.innerHTML += `<pre class="welcome-art">${`
   ▗▄▄▄▖▐▌   ▗▞▀▚▖    ▗▄▄▄▖▗▞▀▚▖ ▄▄▄ ▄ ▗▞▀▚▖    ▗▄▄▄▖ ▄▄▄  ■  ▗▞▀▜▌   ■  ▗▞▀▚▖
