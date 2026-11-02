@@ -22,6 +22,9 @@ html {
   font-family: "VT323", monospace;
   color: #e0e0e0; /* Light green/cyan text color */
   font-size: 25px;
+  display: flex; /* Added */
+  flex-direction: column; /* Added */
+  overflow: hidden; /* Prevents double scrollbars */
 }
 
 /* --- Flickering Keyframes --- */
@@ -54,7 +57,7 @@ html {
   height: 100%;
   box-sizing: border-box;
   overflow-y: auto;
-
+  flex-grow: 1;
   /* 1. Apply the text glow immediately */
   text-shadow: 0 0 1px #ffffff, 0 0 4px #b0b0b0;
 
@@ -84,6 +87,23 @@ html {
   font-family: "VT323", monospace;
   font-size: 25px;
   text-transform: uppercase; /* Ensures all status text defaults to uppercase */
+}
+
+.itemsbar {
+  position: sticky;
+  bottom: 0; /* CHANGED from top: 0 to stick to the bottom */
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 20px;
+  box-sizing: border-box;
+  z-index: 9999;
+  font-family: "VT323", monospace;
+  font-size: 25px;
+  text-transform: uppercase;
 }
 
 /* --- Input Area --- */

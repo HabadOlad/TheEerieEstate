@@ -85,3 +85,13 @@ outputEl.innerHTML += `<br />`;
 outputEl.innerHTML += `<div>You have somehow found this dingy degraded battered old wooden door, it's your chance to escape the enemies relentless soldiers who've been tracking you. However, this building may have more to it than you thought adventurer!.....Do you dare enter?</div>`;
 outputEl.innerHTML += `<br />`;
 //nameprompt.innerHTML = `$>`;
+
+//Bottom stats bar
+const itemsBar = document.querySelector(".itemsbar");
+itemsBar.innerHTML = `
+<a href="">[0] SAVE / LOAD</a>
+<a href="">[1] INVENTORY</a>
+<a href="">[2] HELP / COMMANDS</a>
+<a href="">[3] ABOUT</a>
+<a href="https://habadolad.com/">[4] AUTHOR</a>
+`;
