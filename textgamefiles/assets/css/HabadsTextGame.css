@@ -135,14 +135,14 @@ html {
 }
 
 .welcome-art {
-  margin: 0;
+  margin: 0 auto; /* Centers the whole block horizontally */
+  width: max-content; /* Shrinks the container to match the exact width of the art */
+  text-align: left; /* Keeps the internal lines aligned properly together */
+
+  /* Your existing retro styles */
   font-family: monospace;
   line-height: 1.2;
   background: transparent;
-
-  /* Authentic 1980s Amber Monitor Colors */
   color: #ffb000;
-
-  /* Optional: Give it a very subtle text glow like an old CRT monitor */
   text-shadow: 0 0 4px rgba(255, 176, 0, 0.7);
 }
